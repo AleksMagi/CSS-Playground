@@ -1,48 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap') 
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap');
 
 body {
-
+    background-color: rgba(243, 253, 226, 0.486);
 }
 
-
-
-.heading{
-    text-align: center;
-}
-
-.Playground-heading{
-    color: rgb(21, 68, 126);
+.footer {
+    color: rgb(7, 0, 0);
     font-family: "Kode Mono", monospace;
-    font-size: 4rem;
-}
- 
-.main{
-    border: 2px solid rgb(11, 5, 22); width: 50%; margin: 0 auto;
-}
-
-.main div{
-    height: 200px;
-    width: 200px;
-    border: 1px solid black;
-    border-radius: 50%;
-    margin: 1rem auto;
-
-}
-
-#red{
-    border-color: red;
-}
-
-#yellow{
-    border-color: rgb(252, 199, 8);
-}
-
-#green{
-    border-color: green;
-}
-.footer{
-    text-align: center;
-    color: midnightblue;
-    font-family: "Anta", sans-serif;
     font-size: 2rem;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.playground-heading {
+    color: rgb(5, 5, 0);
+    font-family: "Anta", sans-serif;
+    font-size: 5rem;
+}
+
+.main {
+    border: 1px solid rgb(8, 0, 0);
+    width: 800px;
+    margin: 0 auto;
+}
+
+.pilt {      
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding-bottom: 700
+    px;
+}
+
+.koostis { 
+    border: 3px solid rgb(0, 242, 255);   
+    font-size: 2rem;
+    color: rgb(6, 0, 0); 
+    text-align: justify;
+    
+       
+}
+
+
+
+.astmed {
+    
+    font-size: 2rem;
+    color: rgb(0, 4, 8); 
+    text-align: justify;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+li {
+    color:rgb(6, 6, 0);
+    font-size: 24px;
+}
+
+.allikas{
+    border: 3px solid rgb(172, 107, 107); 
+    font-size: 16pt;
+    text-align: center;
 }
