@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap') 
+
+body {
+
+}
+
+
+
+.heading{
+    text-align: center;
+}
+
+.Playground-heading{
+    color: rgb(21, 68, 126);
+    font-family: "Kode Mono", monospace;
+    font-size: 4rem;
+}
+ 
+.main{
+    border: 2px solid rgb(11, 5, 22); width: 50%; margin: 0 auto;
+}
+
+.main div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 1rem auto;
+
+}
+
+#red{
+    border-color: red;
+}
+
+#yellow{
+    border-color: rgb(252, 199, 8);
+}
+
+#green{
+    border-color: green;
+}
+.footer{
+    text-align: center;
+    color: midnightblue;
+    font-family: "Anta", sans-serif;
+    font-size: 2rem;
+}
