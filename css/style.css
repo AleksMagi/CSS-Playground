@@ -2,7 +2,7 @@
 
 body {
     background-color: rgba(243, 253, 226, 0.486);
-}
+ }
 
 .footer {
     color: rgb(250, 5, 5);
@@ -12,7 +12,17 @@ body {
 }
 
 .heading {
+    position: relative;
     text-align: center;
+    animation: header;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes header {
+    0%{top: -250px;}
+    100%{top: 0;}
+    
 }
 
 .playground-heading {
@@ -32,20 +42,36 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    padding-bottom: 700
-    px;
+    padding-bottom: 100px;
+    position: relative;
+    animation: pilt;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
+@keyframes pilt {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
 .koostis { 
     border: 3px solid rgb(0, 242, 255);   
     font-size: 2rem;
     color: rgb(10, 224, 60); 
     text-align: justify;
-    
-       
+    position: relative;
+    animation: koostis;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
 }
 
-
+@keyframes koostis {
+    0%{right: -1000px;}
+    25%{right: 100px;}
+    50%{right: -100px;}
+    100%{right: 0;}
+}
 
 .astmed {
     
@@ -65,7 +91,18 @@ li {
 }
 
 .allikas{
+    opacity: 0;
     border: 3px solid rgb(172, 107, 107); 
     font-size: 16pt;
     text-align: center;
+    animation: aniBtn;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes aniBtn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
